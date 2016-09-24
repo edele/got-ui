@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<meta name="viewport" content="width=500">
 <style>
 .ratio {
     max-width: 500px;
     position: relative;
     border-bottom: 2px solid #4285f4;
     padding-left: 4px;
+    left: -4px;
 }
 .ratio-bar {
     position: absolute;
@@ -13,6 +15,10 @@
     left: 0;
     height: 100%;
     background: hsla(217, 89%, 61%, 0.3);
+}
+.neighbors {
+    padding-left: 10px;
+    font-size: .9em
 }
 </style>
 <div style="font-family: sans-serif;" id="visualization"></div>

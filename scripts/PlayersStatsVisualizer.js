@@ -17,21 +17,28 @@ class PlayersStatsVisualizer {
 
             for (let name in neighbors) {
                 if (neighbors.hasOwnProperty(name)) {
-                    neighborsPlays.push(`${name}: ${neighbors[name].gamesCountWithPair}`)
+                    neighborsPlays.push(`<tr>
+                        <td style=padding-right:10px>${name}</td>
+                        <td>${neighbors[name].gamesCountWithPair}</td>
+                    <tr>`)
                 }
             }
 
             debugger
             html += `
-                <div><b>${name}</b></div>
                 <div class=ratio>
+                    <b style=margin-right:20px>${name}</b>
                     ${winStat.winsCount} ${pluralize(winStat.winsCount, 'победа', 'победы', 'побед')}
                     из ${winStat.gamesCount} ${pluralize(winStat.gamesCount, 'игры', 'игр', 'игр')}
                     <div class=ratio-bar style=width:${winStat.winsPercent}%></div>
                 </div>
                 <div>
                     Игры с соседями: <br>
-                    ${neighborsPlays.join(', ')}
+                    <div class=neighbors>
+                        <table>
+                            ${neighborsPlays.join('')}
+                        </table>
+                    </div>
                 </div>
                 <br><br>
             `
