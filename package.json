@@ -1,10 +1,10 @@
 {
-  "name": "",
+  "name": "got-ui",
   "version": "0.0.0",
   "description": "",
   "scripts": {
     "watch": "webpack --watch",
-    "build": "webpack",
+    "build": "cross-env NODE_ENV=prod webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Edele Gizatullin <me@edele.ru>",
@@ -14,6 +14,7 @@
     "babel-loader": "^6.2.4",
     "babel-plugin-transform-object-rest-spread": "^6.8.0",
     "babel-preset-es2015": "^6.9.0",
+    "cross-env": "^3.0.0",
     "webpack": "^1.13.1"
   },
   "dependencies": {
