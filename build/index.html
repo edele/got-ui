@@ -2,24 +2,86 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=500">
 <style>
-.ratio {
-    max-width: 500px;
+body {
+    font-family: sans-serif;
+}
+.ratio-name {
+    margin-right: 20px;
+    font-weight: bold;
+    min-width: 80px;
+    float: left;
+}
+.ratio-stats {
+    float: left;
+}
+.ratio-player {
     position: relative;
-    border-bottom: 2px solid #4285f4;
     padding-left: 4px;
     left: -4px;
 }
-.ratio-bar {
+.player-neighbor {
+    width: 50%;
+    float: left;
+}
+.player-houses {
+    width: 50%;
+    float: left;
+}
+.ratio-player-bar {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
-    background: hsla(217, 89%, 61%, 0.3);
+    background: hsla(217, 89%, 61%, .3);
 }
-.neighbors {
-    padding-left: 10px;
-    font-size: .9em
+.ratio-house {
+    position: relative;
+    padding: 2px 4px;
+    left: -4px;
+    margin-bottom: 4px;
+}
+.ratio-house-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: hsla(153, 77%, 37%, .3);
+}
+.stat-block {
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+.stat-block-header {
+    font-size: 13px;
+    display: inline-block;
+    border-bottom: 1px solid rgba(0,0,0,.2);
+    font-family: Georgia, sans-serif;
+    font-style: italic;
+}
+.table {
+    border-spacing: 0;
+}
+.table td {
+    padding: 0 10px 0 0;
+}
+.clearfix:after {
+   content: " ";
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+.visualization-block {
+    width: 300px;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 </style>
-<div style="font-family: sans-serif;" id="visualization"></div>
+<h1>Статистика домов</h1>
+<div id="houses-visualization" class="clearfix">Загрузка...</div>
+
+<h1>Статистика игроков</h1>
+<div id="players-visualization" class="clearfix">Загрузка...</div>
+
 <script src="./script.js"></script>

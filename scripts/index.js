@@ -1,5 +1,6 @@
 import StatisticRepository from './StatsRepository'
 import PlayersStatsVisualizer from './PlayersStatsVisualizer'
+import HousesStatsVisualizer from './HousesStatsVisualizer'
 
 const statsRepo = new StatisticRepository()
 
@@ -9,6 +10,9 @@ statsRepo
         const playersStatsVisualizer = new PlayersStatsVisualizer()
         playersStatsVisualizer.data = stats.playerStats
 
-        const el = document.getElementById('visualization');
-        playersStatsVisualizer.showTo(el)
+        const housesStatsVisualizer = new HousesStatsVisualizer()
+        housesStatsVisualizer.data = stats.houseStats
+
+        playersStatsVisualizer.showTo(document.getElementById('players-visualization'))
+        housesStatsVisualizer.showTo(document.getElementById('houses-visualization'))
     })
