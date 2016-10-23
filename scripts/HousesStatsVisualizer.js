@@ -7,30 +7,22 @@ class HousesStatsVisualizer {
     }
 
     showTo(el) {
-        let html = '<div class=visualization-block><table>';
+        let html = '<div class=clearfix>';
 
         objectEach(this.data, (stats, name) => {
             html += `
-				<tr>
-					<td class="ratio-gerb">
-						<img src="gerbs/${name}.png"/>
-					</td>
-					<td>
-						<div class="ratio-house clearfix">
-							<div class="ratio-name">
-									${name}
-							</div>
-							<div class="ratio-stats">
-									${stats.winsCount} ${pluralize(stats.winsCount, 'победа', 'победы', 'побед')}
-									из ${stats.gamesCount} ${pluralize(stats.gamesCount, 'игры', 'игр', 'игр')}
-								<div class=ratio-house-bar style=width:${stats.winsPercent}%></div>
-							</div>
-						</div>
-					</td>
+                <div class='house-stat clearfix'>
+                    <img class=house-stat__gerb src="gerbs/${name}.png"/>
+                    <div class="house-stat__text">
+                        <div class=house-stat__name>${name}</div>
+                        <span class=house-stat__wins>${stats.winsCount}</span>
+                        <span class=house-stat__total>/${stats.gamesCount}</span>
+                    </div>
+                </div>
             `
         })
         
-        html += '</table></div>'
+        html += '</div>'
         
         el.innerHTML = html
     }
