@@ -4,39 +4,48 @@
       "player": "Ruslan",
       "houses": {
         "greyjoy": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 2
         },
         "stark": {
-          "gamesCount": 3
+          "gamesCount": 3,
+          "winsCount": 2
         },
         "baratheon": {
-          "gamesCount": 1
+          "gamesCount": 1,
+          "winsCount": 0
         },
         "martell": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 1
         },
         "tyrell": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "lannister": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         }
       },
       "neighbors": {
         "gleb": {
-          "gamesCountWithPair": 2
-        },
-        "semen": {
-          "gamesCountWithPair": 3
-        },
-        "anotrOn": {
           "gamesCountWithPair": 4
         },
+        "semen": {
+          "gamesCountWithPair": 5
+        },
+        "anotrOn": {
+          "gamesCountWithPair": 5
+        },
         "serega": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 4
         },
         "igor": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 4
+        },
+        "edele": {
+          "gamesCountWithPair": 1
         },
         "dimon": {
           "gamesCountWithPair": 0
@@ -46,15 +55,15 @@
         }
       },
       "winStat": {
-        "gamesCount": 8,
-        "winsCount": 4,
+        "gamesCount": 12,
+        "winsCount": 5,
         "winsSevenCount": 1,
-        "winsScoreCount": 3,
-        "winsPercent": 50.0
+        "winsScoreCount": 4,
+        "winsPercent": 41.666666666666664
       },
       "neighborWinStat": {
-        "gamesCount": 8,
-        "winsCount": 2,
+        "gamesCount": 12,
+        "winsCount": 3,
         "winsSevenCount": 0,
         "winsScoreCount": 0,
         "winsPercent": 25.0
@@ -64,39 +73,48 @@
       "player": "Gleb",
       "houses": {
         "greyjoy": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "stark": {
-          "gamesCount": 2
+          "gamesCount": 3,
+          "winsCount": 1
         },
         "baratheon": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "martell": {
-          "gamesCount": 2
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "tyrell": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "lannister": {
-          "gamesCount": 2
+          "gamesCount": 2,
+          "winsCount": 1
         }
       },
       "neighbors": {
         "ruslan": {
-          "gamesCountWithPair": 2
-        },
-        "semen": {
-          "gamesCountWithPair": 5
-        },
-        "anotrOn": {
-          "gamesCountWithPair": 3
-        },
-        "serega": {
           "gamesCountWithPair": 4
         },
+        "semen": {
+          "gamesCountWithPair": 6
+        },
+        "anotrOn": {
+          "gamesCountWithPair": 5
+        },
+        "serega": {
+          "gamesCountWithPair": 6
+        },
         "igor": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 4
+        },
+        "edele": {
+          "gamesCountWithPair": 0
         },
         "dimon": {
           "gamesCountWithPair": 1
@@ -106,57 +124,66 @@
         }
       },
       "winStat": {
-        "gamesCount": 9,
+        "gamesCount": 13,
         "winsCount": 2,
         "winsSevenCount": 2,
         "winsScoreCount": 0,
-        "winsPercent": 22.222222222222221
+        "winsPercent": 15.384615384615385
       },
       "neighborWinStat": {
-        "gamesCount": 9,
-        "winsCount": 0,
+        "gamesCount": 13,
+        "winsCount": 3,
         "winsSevenCount": 0,
         "winsScoreCount": 0,
-        "winsPercent": 0.0
+        "winsPercent": 23.076923076923077
       }
     },
     {
       "player": "Semen",
       "houses": {
         "greyjoy": {
-          "gamesCount": 2
+          "gamesCount": 2,
+          "winsCount": 1
         },
         "stark": {
-          "gamesCount": 1
+          "gamesCount": 1,
+          "winsCount": 0
         },
         "baratheon": {
-          "gamesCount": 1
+          "gamesCount": 3,
+          "winsCount": 0
         },
         "martell": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "tyrell": {
-          "gamesCount": 3
+          "gamesCount": 3,
+          "winsCount": 1
         },
         "lannister": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         }
       },
       "neighbors": {
         "ruslan": {
-          "gamesCountWithPair": 3
-        },
-        "gleb": {
           "gamesCountWithPair": 5
         },
+        "gleb": {
+          "gamesCountWithPair": 6
+        },
         "anotrOn": {
-          "gamesCountWithPair": 2
+          "gamesCountWithPair": 4
         },
         "serega": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 4
         },
         "igor": {
-          "gamesCountWithPair": 4
+          "gamesCountWithPair": 6
+        },
+        "edele": {
+          "gamesCountWithPair": 0
         },
         "dimon": {
           "gamesCountWithPair": 1
@@ -166,57 +193,66 @@
         }
       },
       "winStat": {
-        "gamesCount": 9,
+        "gamesCount": 13,
         "winsCount": 2,
         "winsSevenCount": 2,
         "winsScoreCount": 0,
-        "winsPercent": 22.222222222222221
+        "winsPercent": 15.384615384615385
       },
       "neighborWinStat": {
-        "gamesCount": 9,
-        "winsCount": 3,
+        "gamesCount": 13,
+        "winsCount": 5,
         "winsSevenCount": 0,
         "winsScoreCount": 0,
-        "winsPercent": 33.333333333333336
+        "winsPercent": 38.46153846153846
       }
     },
     {
       "player": "AnotrOn",
       "houses": {
         "greyjoy": {
-          "gamesCount": 2
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "stark": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "baratheon": {
-          "gamesCount": 2
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "martell": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "tyrell": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "lannister": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         }
       },
       "neighbors": {
         "ruslan": {
-          "gamesCountWithPair": 4
+          "gamesCountWithPair": 5
         },
         "gleb": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 5
         },
         "semen": {
-          "gamesCountWithPair": 2
+          "gamesCountWithPair": 4
         },
         "serega": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 5
         },
         "igor": {
-          "gamesCountWithPair": 4
+          "gamesCountWithPair": 5
+        },
+        "edele": {
+          "gamesCountWithPair": 0
         },
         "dimon": {
           "gamesCountWithPair": 0
@@ -226,57 +262,66 @@
         }
       },
       "winStat": {
-        "gamesCount": 8,
+        "gamesCount": 12,
         "winsCount": 0,
         "winsSevenCount": 0,
         "winsScoreCount": 0,
         "winsPercent": 0.0
       },
       "neighborWinStat": {
-        "gamesCount": 8,
+        "gamesCount": 12,
         "winsCount": 4,
         "winsSevenCount": 0,
         "winsScoreCount": 0,
-        "winsPercent": 50.0
+        "winsPercent": 33.333333333333336
       }
     },
     {
       "player": "Serega",
       "houses": {
         "greyjoy": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "stark": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 1
         },
         "baratheon": {
-          "gamesCount": 2
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "martell": {
-          "gamesCount": 2
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "tyrell": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "lannister": {
-          "gamesCount": 2
+          "gamesCount": 3,
+          "winsCount": 1
         }
       },
       "neighbors": {
         "ruslan": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 4
         },
         "gleb": {
-          "gamesCountWithPair": 4
+          "gamesCountWithPair": 6
         },
         "semen": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 4
         },
         "anotrOn": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 5
         },
         "igor": {
-          "gamesCountWithPair": 4
+          "gamesCountWithPair": 5
+        },
+        "edele": {
+          "gamesCountWithPair": 1
         },
         "dimon": {
           "gamesCountWithPair": 0
@@ -286,57 +331,66 @@
         }
       },
       "winStat": {
-        "gamesCount": 9,
-        "winsCount": 0,
-        "winsSevenCount": 0,
+        "gamesCount": 13,
+        "winsCount": 2,
+        "winsSevenCount": 2,
         "winsScoreCount": 0,
-        "winsPercent": 0.0
+        "winsPercent": 15.384615384615385
       },
       "neighborWinStat": {
-        "gamesCount": 9,
-        "winsCount": 4,
+        "gamesCount": 13,
+        "winsCount": 5,
         "winsSevenCount": 0,
         "winsScoreCount": 0,
-        "winsPercent": 44.444444444444443
+        "winsPercent": 38.46153846153846
       }
     },
     {
       "player": "Igor",
       "houses": {
         "greyjoy": {
-          "gamesCount": 1
+          "gamesCount": 1,
+          "winsCount": 1
         },
         "stark": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 1
         },
         "baratheon": {
-          "gamesCount": 1
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "martell": {
-          "gamesCount": 2
+          "gamesCount": 3,
+          "winsCount": 0
         },
         "tyrell": {
-          "gamesCount": 2
+          "gamesCount": 2,
+          "winsCount": 0
         },
         "lannister": {
-          "gamesCount": 2
+          "gamesCount": 2,
+          "winsCount": 0
         }
       },
       "neighbors": {
         "ruslan": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 4
         },
         "gleb": {
-          "gamesCountWithPair": 3
+          "gamesCountWithPair": 4
         },
         "semen": {
-          "gamesCountWithPair": 4
+          "gamesCountWithPair": 6
         },
         "anotrOn": {
-          "gamesCountWithPair": 4
+          "gamesCountWithPair": 5
         },
         "serega": {
-          "gamesCountWithPair": 4
+          "gamesCountWithPair": 5
+        },
+        "edele": {
+          "gamesCountWithPair": 0
         },
         "dimon": {
           "gamesCountWithPair": 0
@@ -346,63 +400,63 @@
         }
       },
       "winStat": {
-        "gamesCount": 9,
-        "winsCount": 1,
+        "gamesCount": 12,
+        "winsCount": 2,
         "winsSevenCount": 1,
-        "winsScoreCount": 0,
-        "winsPercent": 11.111111111111111
+        "winsScoreCount": 1,
+        "winsPercent": 16.666666666666668
       },
       "neighborWinStat": {
-        "gamesCount": 9,
+        "gamesCount": 12,
         "winsCount": 4,
         "winsSevenCount": 0,
         "winsScoreCount": 0,
-        "winsPercent": 44.444444444444443
+        "winsPercent": 33.333333333333336
       }
     }
   ],
   "houseStats": {
     "greyjoy": {
-      "gamesCount": 9,
-      "winsCount": 3,
+      "gamesCount": 13,
+      "winsCount": 4,
       "winsSevenCount": 2,
-      "winsScoreCount": 1,
-      "winsPercent": 33.333333333333336
+      "winsScoreCount": 2,
+      "winsPercent": 30.76923076923077
     },
     "stark": {
-      "gamesCount": 9,
-      "winsCount": 3,
-      "winsSevenCount": 1,
-      "winsScoreCount": 2,
-      "winsPercent": 33.333333333333336
+      "gamesCount": 13,
+      "winsCount": 5,
+      "winsSevenCount": 2,
+      "winsScoreCount": 3,
+      "winsPercent": 38.46153846153846
     },
     "baratheon": {
-      "gamesCount": 9,
+      "gamesCount": 13,
       "winsCount": 0,
       "winsSevenCount": 0,
       "winsScoreCount": 0,
       "winsPercent": 0.0
     },
     "martell": {
-      "gamesCount": 9,
+      "gamesCount": 13,
       "winsCount": 1,
       "winsSevenCount": 1,
       "winsScoreCount": 0,
-      "winsPercent": 11.111111111111111
+      "winsPercent": 7.6923076923076925
     },
     "tyrell": {
-      "gamesCount": 9,
+      "gamesCount": 13,
       "winsCount": 1,
       "winsSevenCount": 1,
       "winsScoreCount": 0,
-      "winsPercent": 11.111111111111111
+      "winsPercent": 7.6923076923076925
     },
     "lannister": {
-      "gamesCount": 9,
-      "winsCount": 1,
-      "winsSevenCount": 1,
+      "gamesCount": 13,
+      "winsCount": 2,
+      "winsSevenCount": 2,
       "winsScoreCount": 0,
-      "winsPercent": 11.111111111111111
+      "winsPercent": 15.384615384615385
     }
   }
 }
