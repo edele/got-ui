@@ -29,7 +29,8 @@
       ],
       "date": "2016-08-12T00:00:00",
       "winner": "Ruslan",
-      "winType": 0
+      "winType": 0,
+      "withRandomCards": false
     },
     {
       "houses": [
@@ -60,7 +61,8 @@
       ],
       "date": "2016-08-19T00:00:00",
       "winner": "Semen",
-      "winType": 1
+      "winType": 1,
+      "withRandomCards": false
     },
     {
       "houses": [
@@ -91,7 +93,8 @@
       ],
       "date": "2016-08-26T00:00:00",
       "winner": "Ruslan",
-      "winType": 1
+      "winType": 1,
+      "withRandomCards": false
     },
     {
       "houses": [
@@ -122,7 +125,8 @@
       ],
       "date": "2016-09-02T00:00:00",
       "winner": "Semen",
-      "winType": 1
+      "winType": 1,
+      "withRandomCards": false
     },
     {
       "houses": [
@@ -153,7 +157,8 @@
       ],
       "date": "2016-09-08T00:00:00",
       "winner": "Ruslan",
-      "winType": 0
+      "winType": 0,
+      "withRandomCards": false
     },
     {
       "houses": [
@@ -184,7 +189,8 @@
       ],
       "date": "2016-09-14T00:00:00",
       "winner": "Igor",
-      "winType": 1
+      "winType": 1,
+      "withRandomCards": false
     },
     {
       "houses": [
@@ -215,7 +221,8 @@
       ],
       "date": "2016-09-23T00:00:00",
       "winner": "Gleb",
-      "winType": 1
+      "winType": 1,
+      "withRandomCards": false
     },
     {
       "houses": [
@@ -246,7 +253,8 @@
       ],
       "date": "2016-09-24T00:00:00",
       "winner": "Gleb",
-      "winType": 1
+      "winType": 1,
+      "withRandomCards": false
     },
     {
       "houses": [
@@ -277,7 +285,136 @@
       ],
       "date": "2016-09-30T00:00:00",
       "winner": "Ruslan",
-      "winType": 0
+      "winType": 0,
+      "withRandomCards": false
+    },
+    {
+      "houses": [
+        {
+          "name": "AnotrOn",
+          "houseType": "Lannister"
+        },
+        {
+          "name": "Gleb",
+          "houseType": "Tyrell"
+        },
+        {
+          "name": "Ruslan",
+          "houseType": "Martell"
+        },
+        {
+          "name": "Semen",
+          "houseType": "Baratheon"
+        },
+        {
+          "name": "Igor",
+          "houseType": "Stark"
+        },
+        {
+          "name": "Serega",
+          "houseType": "Greyjoy"
+        }
+      ],
+      "date": "2016-10-07T00:00:00",
+      "winner": "Igor",
+      "winType": 0,
+      "withRandomCards": false
+    },
+    {
+      "houses": [
+        {
+          "name": "Ruslan",
+          "houseType": "Lannister"
+        },
+        {
+          "name": "AnotrOn",
+          "houseType": "Tyrell"
+        },
+        {
+          "name": "Semen",
+          "houseType": "Martell"
+        },
+        {
+          "name": "Gleb",
+          "houseType": "Baratheon"
+        },
+        {
+          "name": "Serega",
+          "houseType": "Stark"
+        },
+        {
+          "name": "Edele",
+          "houseType": "Greyjoy"
+        }
+      ],
+      "date": "2016-10-09T00:00:00",
+      "winner": "Serega",
+      "winType": 1,
+      "withRandomCards": false
+    },
+    {
+      "houses": [
+        {
+          "name": "Semen",
+          "houseType": "Lannister"
+        },
+        {
+          "name": "Serega",
+          "houseType": "Tyrell"
+        },
+        {
+          "name": "AnotrOn",
+          "houseType": "Martell"
+        },
+        {
+          "name": "Igor",
+          "houseType": "Baratheon"
+        },
+        {
+          "name": "Gleb",
+          "houseType": "Stark"
+        },
+        {
+          "name": "Ruslan",
+          "houseType": "Greyjoy"
+        }
+      ],
+      "date": "2016-10-14T00:00:00",
+      "winner": "Ruslan",
+      "winType": 0,
+      "withRandomCards": false
+    },
+    {
+      "houses": [
+        {
+          "name": "Serega",
+          "houseType": "Lannister"
+        },
+        {
+          "name": "Ruslan",
+          "houseType": "Tyrell"
+        },
+        {
+          "name": "Igor",
+          "houseType": "Martell"
+        },
+        {
+          "name": "Semen",
+          "houseType": "Baratheon"
+        },
+        {
+          "name": "AnotrOn",
+          "houseType": "Stark"
+        },
+        {
+          "name": "Gleb",
+          "houseType": "Greyjoy"
+        }
+      ],
+      "date": "2016-10-21T00:00:00",
+      "winner": "Serega",
+      "winType": 1,
+      "withRandomCards": true
     }
   ]
 }

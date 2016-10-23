@@ -18,6 +18,7 @@ class PlayersStatsVisualizer {
                 housesPlays.push(`<tr>
                     <td>${house.name}</td>
                     <td>${house.gamesCount}</td>
+					<td>(${house.winsCount} ${pluralize(house.winsCount, 'победа', 'победы', 'побед')})</td>
                 <tr>`)
             })
 
