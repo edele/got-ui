@@ -19,9 +19,7 @@ var config = {
         loaders: [
             { test: /\.js$/, exclude: /node_modules/, loader: 'babel-loader' }
         ]
-    },
-
-    devtool: 'eval-source-map'
+    }
 }
 
 if (isProduction) {
@@ -29,6 +27,8 @@ if (isProduction) {
         new webpack.optimize.UglifyJsPlugin(uglifyOptions),
         new webpack.BannerPlugin(pkg.name + ' - ' + new Date())
     ]
+} else {
+        config.devtool = 'eval-source-map'
 }
 
 module.exports = config;

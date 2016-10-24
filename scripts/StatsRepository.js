@@ -13,7 +13,14 @@ class StatisticRepository {
     }
 
     parse(stats) {
-        stats.playerStats = stats.playerStats.map(player => {
+        return {
+            playerStats: this.parsePlayerStats(stats),
+            houseStats: this.parseHouseStats(stats)
+        };
+    }
+
+    parsePlayerStats(stats) {
+        return stats.playerStats.map(player => {
             let houses = []
             let neighbors = []
 
@@ -30,8 +37,15 @@ class StatisticRepository {
 
             return { ...player, houses, neighbors }
         })
+    }
 
-        return stats;
+    parseHouseStats(stats) {
+        let houseStats = []
+
+        objectEach(stats.houseStats, (data, name) => houseStats.push({name, ...data}))
+        houseStats.sort((a, b) => b.winsCount - a.winsCount);
+
+        return houseStats
     }
 }
 
