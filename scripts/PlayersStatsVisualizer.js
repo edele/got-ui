@@ -18,7 +18,7 @@ class PlayersStatsVisualizer {
                 housesPlays.push(`<tr>
                     <td>${house.name}</td>
                     <td>${house.gamesCount}</td>
-					<td>(${house.winsCount} ${pluralize(house.winsCount, 'победа', 'победы', 'побед')})</td>
+					<td>`+(house.winsCount > 0 ?`(${house.winsCount} ${pluralize(house.winsCount, 'победа', 'победы', 'побед')})`:``)+`</td>
                 <tr>`)
             })
 
