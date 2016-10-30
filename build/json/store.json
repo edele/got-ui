@@ -415,6 +415,38 @@
       "winner": "Serega",
       "winType": 1,
       "withRandomCards": true
+    },
+    {
+      "houses": [
+        {
+          "name": "Gleb",
+          "houseType": "Lannister"
+        },
+        {
+          "name": "Igor",
+          "houseType": "Tyrell"
+        },
+        {
+          "name": "Serega",
+          "houseType": "Martell"
+        },
+        {
+          "name": "AnotrOn",
+          "houseType": "Baratheon"
+        },
+        {
+          "name": "Ruslan",
+          "houseType": "Stark"
+        },
+        {
+          "name": "Semen",
+          "houseType": "Greyjoy"
+        }
+      ],
+      "date": "2016-10-27T00:00:00",
+      "winner": "Serega",
+      "winType": 1,
+      "withRandomCards": false
     }
   ]
 }
