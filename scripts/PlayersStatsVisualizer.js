@@ -18,7 +18,7 @@ class PlayersStatsVisualizer {
                 housesPlays.push(`<tr>
                     <td>${house.name}</td>
                     <td>${house.gamesCount}</td>
-					<td>(${house.winsCount} ${pluralize(house.winsCount, 'победа', 'победы', 'побед')})</td>
+					<td>`+(house.winsCount > 0 ?`(${house.winsCount} ${pluralize(house.winsCount, 'победа', 'победы', 'побед')})`:``)+`</td>
                 <tr>`)
             })
 
@@ -26,6 +26,7 @@ class PlayersStatsVisualizer {
                 neighborsPlays.push(`<tr>
                     <td>${neighbor.name}</td>
                     <td>${neighbor.gamesCountWithPair}</td>
+					<td>`+(neighbor.winsCountWithPair > 0 ?`(${neighbor.winsCountWithPair} ${pluralize(neighbor.winsCountWithPair, 'победа', 'победы', 'побед')})`:``)+`</td>
                 <tr>`)
             })
 
