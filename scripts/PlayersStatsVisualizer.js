@@ -26,6 +26,7 @@ class PlayersStatsVisualizer {
                 neighborsPlays.push(`<tr>
                     <td>${neighbor.name}</td>
                     <td>${neighbor.gamesCountWithPair}</td>
+					<td>`+(neighbor.winsCountWithPair > 0 ?`(${neighbor.winsCountWithPair} ${pluralize(neighbor.winsCountWithPair, 'победа', 'победы', 'побед')})`:``)+`</td>
                 <tr>`)
             })
 
