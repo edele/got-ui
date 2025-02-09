@@ -1,52 +1,51 @@
-import { json } from 'd3'
-import objectEach from 'doremi/object/each'
+import objectEach from "doremi/object/each";
 
 class StatisticRepository {
-    fetch() {
-        return new Promise((done, fail) => {
-            json('json/statistic.json', statistics => {
-                this.statistics = this.parse(statistics)
-                
-                done(this.statistics)
-            })
-        })
-    }
+  fetch() {
+    return fetch("json/statistic.json")
+      .then((x) => x.json())
+      .then((statistics) => {
+        this.statistics = this.parse(statistics);
 
-    parse(stats) {
-        return {
-            playerStats: this.parsePlayerStats(stats),
-            houseStats: this.parseHouseStats(stats)
-        };
-    }
+        return this.statistics;
+      });
+  }
 
-    parsePlayerStats(stats) {
-        return stats.playerStats.map(player => {
-            let houses = []
-            let neighbors = []
+  parse(stats) {
+    return {
+      playerStats: this.parsePlayerStats(stats),
+      houseStats: this.parseHouseStats(stats),
+    };
+  }
 
-            objectEach(player.houses, (house, name) => {
-                houses.push({ name, ...house });
-            })
+  parsePlayerStats(stats) {
+    return stats.playerStats.map((player) => {
+      let houses = [];
+      let neighbors = [];
 
-            objectEach(player.neighbors, (neighbor, name) => {
-                neighbors.push({ name, ...neighbor });
-            })
+      objectEach(player.houses, (house, name) => {
+        houses.push({ name, ...house });
+      });
 
-            houses.sort((a, b) => b.gamesCount - a.gamesCount);
-            neighbors.sort((a, b) => b.gamesCountWithPair - a.gamesCountWithPair);
+      objectEach(player.neighbors, (neighbor, name) => {
+        neighbors.push({ name, ...neighbor });
+      });
 
-            return { ...player, houses, neighbors }
-        })
-    }
+      houses.sort((a, b) => b.gamesCount - a.gamesCount);
+      neighbors.sort((a, b) => b.gamesCountWithPair - a.gamesCountWithPair);
 
-    parseHouseStats(stats) {
-        let houseStats = []
+      return { ...player, houses, neighbors };
+    });
+  }
 
-        objectEach(stats.houseStats, (data, name) => houseStats.push({name, ...data}))
-        houseStats.sort((a, b) => b.winsCount - a.winsCount);
+  parseHouseStats(stats) {
+    let houseStats = [];
 
-        return houseStats
-    }
+    objectEach(stats.houseStats, (data, name) => houseStats.push({ name, ...data }));
+    houseStats.sort((a, b) => b.winsCount - a.winsCount);
+
+    return houseStats;
+  }
 }
 
-export default StatisticRepository
+export default StatisticRepository;
