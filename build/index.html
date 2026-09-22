@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<link rel="icon" href="./favicon.svg" type="image/svg+xml">
 <meta name="viewport" content="width=300">
 <style>
 body {
     font-family: sans-serif;
+}
+.brandline {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 16px 0 8px;
+}
+.brandline img {
+    border-radius: 7px;
 }
 .ratio-name {
     margin-right: 20px;
@@ -103,6 +115,7 @@ body {
 }
 
 </style>
+<header class="brandline"><img src="./favicon.svg" alt="" width="28" height="28"><span>Game of Thrones · статистика</span></header>
 <h1>Победы домов</h1>
 <div id="houses-visualization" class="clearfix">Загрузка...</div>
 

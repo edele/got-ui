@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Интерфейс по Вестеросу: корона в окне приложения">
+  <rect width="64" height="64" rx="14" fill="#2E4160"/>
+  <rect x="8" y="12" width="48" height="40" rx="6" fill="#F4F0E8"/>
+  <path d="M8 21 h48" stroke="#2E4160" stroke-width="2.4" opacity=".3"/>
+  <circle cx="14" cy="16.5" r="2" fill="#2E4160" opacity=".45"/>
+  <circle cx="20" cy="16.5" r="2" fill="#2E4160" opacity=".45"/>
+  <path d="M20 44 V27 l6 6 l6 -10 l6 10 l6 -6 v17 z" fill="#2E4160"/>
+  <rect x="20" y="44" width="24" height="4.5" rx="2" fill="#F2B441"/>
+</svg>
